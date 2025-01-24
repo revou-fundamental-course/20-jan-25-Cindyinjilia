@@ -1,1 +1,1 @@
-ini file Javascript
+// ini file Javascript
