@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="css/styles.css">    
     
 </head>
 
@@ -61,12 +64,8 @@
                         (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini)
                         dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain konsultasi
                         dengan orang yang memenuhi syarat seperti dokter.</p>
-                    <p>Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan anda dengan nilai umum.
-                        Index Massa Tubuh(atau BMI) dihitung sebagai berat badan anda (dalam Kilogram) dibagi dengan
-                        kuadrat
-                        tinggi badan anda
-                        (dalam Meter) atau BMI = \[(Kg/M^2)\]</p>
                 </article>
+
             </section>
 
             <section>
@@ -79,16 +78,40 @@
                         <span id="result-bmi">0</span>
                     </div>
                 </section>
-
                 <article>
                     <p>Keterangan</p>
-                    <p>Hasil BMI diantara 23 dan 25</p>
-                    <p>Anda berada dalam kategori overweight atau berat badan berlebih.
-                        Cara terbaik untuk menurunkan berat baadan adalah dengan mengatur
-                        kalor makanan yang dikonsumsi dan berolahraga.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                            <th>BMI</th>
+                            <th>Status Berat Badan</th> 
+                            </tr> 
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Kurang dari 18.5</td>
+                                <td>Kekurangan Berat Badan</td>
+                            </tr>     
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Normal (Ideal)</td>
+                                </tr>
+                                <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Kelebihan Berat Badan</td>
+                                </tr>
+                                <tr>
+                                <td>30.0 atau lebih</td>
+                                <td>Kegemukan (Obesitas)</td>
+                                </tr>        
+                        </tbody>
+                    </table>
+
                 </article>
-            </section>
+
         </main>
+        
 
         <footer>
             <span>Made by Cindy@2025</span>

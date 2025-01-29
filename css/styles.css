@@ -1,9 +1,37 @@
 body {
-    font: 16px/28px arial, sans-serif;
-    background-color: #eaeaea;
-    background-image: url(../img/background.png);
-    height: 1050px;
-    margin-top: 80px;
+    .nunito-sans-<uniquifier> {
+        font-family: "Nunito Sans", serif;
+        font-optical-sizing: auto;
+        background-color: #eaeaea;
+        background-image: url(../img/background.png);
+        height: 1050px;
+        margin-top: 80px;
+}
+
+table{
+    width: 450px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+th, td {
+    padding: 12px 14px;
+    text-align: left;
+}
+
+thead th {
+    background-color: rgb(218, 116, 204);
+    color: rgb(255, 213, 244);
+    width: 15%;
+}
+
+tbody tr:nth-last-child(odd) {
+    background-color: rgb(245, 165, 245);
+}
+
+tbody tr:nth-last-child(even) {
+    background-color: #fed3ff;
 }
 
 main {
@@ -68,6 +96,10 @@ button {
     border: none;
     padding: 8px;
     color: #fafcff;
+}
+
+button:hover {
+    background-color: darkmagenta;
 }
 
 .bg-hitung {
